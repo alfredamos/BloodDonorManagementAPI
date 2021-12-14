@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonorManagementAPI", "BloodDonorManagementAPI.csproj", "{9AB2C2D5-8A43-4E2C-98F1-4823BA336A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonorModels", "..\BloodDonorModels\BloodDonorModels.csproj", "{4157048A-B83C-4EDD-9BBE-625523B42868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonorDataAccessEF", "..\BloodDonorDataAccessEF\BloodDonorDataAccessEF.csproj", "{23B3ED7F-E02E-4D4B-8241-740D58B340E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonorServices", "..\BloodDonorServices\BloodDonorServices.csproj", "{425F2A02-BDC3-4DFB-BB6F-648A51CCB386}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AB2C2D5-8A43-4E2C-98F1-4823BA336A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB2C2D5-8A43-4E2C-98F1-4823BA336A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB2C2D5-8A43-4E2C-98F1-4823BA336A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB2C2D5-8A43-4E2C-98F1-4823BA336A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4157048A-B83C-4EDD-9BBE-625523B42868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4157048A-B83C-4EDD-9BBE-625523B42868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4157048A-B83C-4EDD-9BBE-625523B42868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4157048A-B83C-4EDD-9BBE-625523B42868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B3ED7F-E02E-4D4B-8241-740D58B340E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B3ED7F-E02E-4D4B-8241-740D58B340E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B3ED7F-E02E-4D4B-8241-740D58B340E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B3ED7F-E02E-4D4B-8241-740D58B340E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425F2A02-BDC3-4DFB-BB6F-648A51CCB386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425F2A02-BDC3-4DFB-BB6F-648A51CCB386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425F2A02-BDC3-4DFB-BB6F-648A51CCB386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425F2A02-BDC3-4DFB-BB6F-648A51CCB386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F33EC750-965A-4DAE-87B5-EDD2D5F15F02}
+	EndGlobalSection
+EndGlobal
